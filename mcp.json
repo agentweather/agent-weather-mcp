@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "agent-weather": {
+      "url": "https://mcp.agentweather.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.agentweather/agent-weather",
+  "title": "Agent Weather",
+  "description": "Pay per call, solves one question. Raw public readings on AI agents and x402.",
+  "version": "0.4.11",
+  "websiteUrl": "https://api.agentweather.io",
+  "icons": [
+    {
+      "src": "https://api.agentweather.io/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["256x256"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agentweather.io/mcp"
+    }
+  ]
+}
